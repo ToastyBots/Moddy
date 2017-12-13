@@ -20,7 +20,7 @@ client.on("ready", () => {
 
 client.on("message", (message) => {
     const command = message.content.toLowerCase();
-    const mprefix = `<@389692034132213760> `;
+    const mprefix = `<@390389689275777025> `;
     if ((!message.content.startsWith(prefix) && !message.content.startsWith(mprefix)) || message.author.bot) return;
     let args = message.content.split(/ +/).slice(message.content.startsWith(prefix) ? 1 : 2);
     
